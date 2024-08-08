@@ -45,9 +45,9 @@ const AppClassic = () => {
 						{/*<Features />*/}
 						{/*<DesignedAndBuilt />*/}
 						{/*<FeatureTab />*/}
-						<PricingPolicy />
+						<PricingPolicy id="pricing-policy"/>
 						<Faq />
-						<Testimonial />
+						{/* <Testimonial /> */}
 						{/*<JoinTrial />*/}
 					</ContentWrapper>
 					<Footer />

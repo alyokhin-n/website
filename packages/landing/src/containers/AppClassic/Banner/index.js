@@ -29,12 +29,12 @@ const Banner = () => {
             </RatingInfo>
           </Fade>
 
-          <Fade direction='up' triggerOnce delay={50}>
+          {/* <Fade direction='up' triggerOnce delay={50}>
             <RatingInfo>
               <Rating rating={4} />
               4.9 of 5 By <img src={googlePlay?.src} alt="GooglePlay" />GooglePlay
             </RatingInfo>
-          </Fade>
+          </Fade> */}
           <Fade direction='up' triggerOnce delay={100}>
             <Heading
               as="h1"
@@ -48,7 +48,9 @@ const Banner = () => {
           </Fade>
           <Fade direction='up' triggerOnce delay={300}>
             <ButtonGroup>
+            <a href="#pricing">
               <Button className="primary" title="Download" />
+              </a>
             </ButtonGroup>
           </Fade>
         </BannerContent>

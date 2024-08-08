@@ -84,7 +84,7 @@ const PricingPolicy = () => {
               </div>
               <div className="card-footer">
                 <strong>
-                  <span>FREE</span>
+                  <span>Get FREE on:</span>
                 </strong>
                <DownloadButtons/>
               </div>

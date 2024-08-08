@@ -56,7 +56,7 @@ const Footer = () => {
                             </MenuItem>
                         ))}
                     </Menu>
-                    <CopyrightText>Copyright {year} By GoStaR</CopyrightText>
+                    <CopyrightText>Copyright © {year}. All rights reserved by Orienteering.PRO</CopyrightText>
                 </MenuArea>
                 {/* End of footer menu area */}
             </Container>

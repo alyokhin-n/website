@@ -102,7 +102,8 @@ export const appSlider = {
         id: 3, image: appSlide3, title: 'App Slide 3',
     }, {
         id: 4, image: appSlide4, title: 'App Slide 4',
-    },],
+    },
+],
     title: 'Mobile App Features',
     description: "At ORIENTEERING.PRO, we are proud to introduce our two cutting-edge mobile applications designed to revolutionize the way coaches create routes and athletes engage with orienteering.",
     features: [{
@@ -260,11 +261,11 @@ export const download = {
         id: 1, title: 'Coach app', description: 'For creating competitive orienteering routes', features: [{
             id: 1, text: 'Install the Coach app',
         }, {
-            id: 2, text: "Set Control Points as AR objects (EASY)",
+            id: 2, text: "Set Control Points as AR objects(EASY)",
         }, {
             id: 3, text: 'Set a route',
         }, {
-            id: 4, text: 'Set route price and earn  or keep it free',
+            id: 4, text: 'Set route price and earn or keep it free',
         },],
     },
 }
@@ -308,46 +309,86 @@ export const faq = {
     slogan: 'FREQUENT QUESTION', title: 'HOW TO', faqs: {
         athlete: [{
             id: 1,
-            question: 'How to understand the Route Plaque?',
-            answer: "check video",
-            videoUrl: "https://www.youtube.com/embed/0NaOYY6H4T0?rel=0",
+            question: 'How to change km to miles?',
+            videoUrl: "https://www.youtube.com/embed/Q3DZT9hju7A?si=FkhuNQ5wnpVAH9Pz",
         }, {
             id: 2,
-            question: 'How to find routes of my coach?',
-            videoUrl: "https://www.youtube.com/embed/0NaOYY6H4T0?rel=0",
+            question: 'How to change the app language?',
+            videoUrl: "https://www.youtube.com/embed/FeynIEpPNXY?si=-GnAtFygjsbVWnCc",
         }, {
-            id: 3, question: 'How to open a Closed route?', gif: testGif,
+            id: 3, question: 'How to change my nick and photo in the app?',
+            videoUrl: "https://www.youtube.com/embed/iDKDQREhe1c?si=tw3GtW61XmanmUaB",
         }, {
             id: 4,
-            question: 'How to use Hints to find the next CP?',
-            answer: 'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+            question: 'What the symbols on the Route Plaque mean?',
+            videoUrl: "https://www.youtube.com/embed/3E6H_d98sTU?si=g1fKeyFOqgNCPVtR",
         }, {
             id: 5,
-            question: 'What to do if I GET LOST?',
-            answer: 'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+            question: 'How to view route comments?',
+            videoUrl: "https://www.youtube.com/embed/OeE2Y5RiyHQ?si=pYhdCAf8B6GHuXYx",
         }, {
             id: 6,
-            question: 'What the symbols on a Medal mean?',
-            answer: 'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+            question: 'How to ask a Question?',
+            videoUrl: "https://www.youtube.com/embed/mEqW6qrQy_4?si=xEYPWZiWAqCDIgsl",
         }, {
             id: 7,
-            question: 'How to analyse my performance',
-            answer: 'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+            question: 'How to Share a route?',
+           videoUrl:"https://www.youtube.com/embed/xWYav5DbLqg?si=tn4wgK5m1erAFBun",
+        }, {
+            id: 8,
+            question: 'How to Choose the right route for me?',
+            videoUrl: "https://www.youtube.com/embed/Fp3p6TAN0DY?si=gDxjucBpyvlUVu5B",
+        },  {
+            id: 9,
+            question: "How to find My Coach's routes?",
+            videoUrl: "https://www.youtube.com/embed/2ukgI2gsorQ?si=lkyAOtEcwZ-L2X-w",
+        }, {
+            id: 10,
+            question: "How to use the Map, Compass and Ruler in the app?",
+            videoUrl: "https://www.youtube.com/embed/-4CGne8sg8A?si=G9cftnf0bq0QMFoo",
+        }, {
+            id: 11,
+            question: "How to use the Hint to find the next control point?",
+            videoUrl: "https://www.youtube.com/embed/7Rc7nv3xQg4?si=9GDuE2T7kYB46yAw",
+        }, {
+            id: 12,
+            question: "What to do if I GET LOST?",
+            videoUrl: "https://www.youtube.com/embed/B96gv20wXoo?si=mdudKnJYo_dW-JTx",
+        }, {
+            id: 13,
+            question: "How to find the Starting Control Point of a route?",
+            videoUrl: "https://www.youtube.com/embed/9purlnAMkDg?si=rbQiBt1khMW5PhMH",
+        }, {
+            id: 14,
+            question: "How to open a Closed route?",
+            videoUrl: "https://www.youtube.com/embed/dppp6Ey7frQ?si=sMcTnJQEy9DaJw5b",
+        }, {
+            id: 15,
+            question: "How to Get Off the route?",
+            videoUrl: "https://www.youtube.com/embed/1JocAxkKyjQ?si=0IiqAmomZH9S8Wjp",
+        }, {
+            id: 16,
+            question: "How to Analyze an Athlete's Performance on a route?",
+            videoUrl: "https://www.youtube.com/embed/NlS62_izVbM?si=rphn-zd1lIxKOo4F",
+        }, {
+            id: 17,
+            question: "What the symbols on the Medal mean?",
+            videoUrl: "https://www.youtube.com/embed/lJboLMt1lIo?si=qGU77mgd_tSqFAak",
         },], coach: [{
             id: 1,
             question: 'How to set up a Control Point?',
-            answer: "check video",
-            videoUrl: "https://www.youtube.com/embed/0NaOYY6H4T0?rel=0",
+            videoUrl: "https://www.youtube.com/embed/FlhBn2UOx8Q?si=nKWGihZaIpMJZrQ4",
         }, {
             id: 2,
             question: 'How to set up an Open route?',
-            videoUrl: "https://www.youtube.com/embed/0NaOYY6H4T0?rel=0",
+            videoUrl: "https://www.youtube.com/embed/HYuBqK0HVh0?si=detRULwk_vcOpSKF",
         }, {
-            id: 3, question: 'How to set up a Closed route?', gif: testGif,
+            id: 3, question: 'How to set up a Closed route?',
+            videoUrl: "https://www.youtube.com/embed/IgLeIqLabQY?si=KdS36CSUoP69-p0y",
         }, {
             id: 4,
             question: 'How to delete a route?',
-            answer: 'Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home. Your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news.',
+            videoUrl: "https://www.youtube.com/embed/14IV_mi-nQk?si=KHfRzJmhGph5u61U",
         },],
     },
 
@@ -377,25 +418,27 @@ export const footer = {
     widgets: [{
         id: 1,
         icon: chat,
-        link:'https://www.google.com',
+        link:"https://t.me/official_orienteering_pro/3",
         title: 'Ask Support', // description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
     }, {
         id: 2,
         icon: group,
-        link:'https://www.google.com',
-        title: 'Join the Orienteering.PRO community on Discord', // description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        link:'https://t.me/official_orienteering_pro',
+        title: 'Join community', // description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
     }, {
         id: 3,
         icon: cooperation,
         title: 'Offer cooperation',
-        link:'https://www.google.com',
-        description: 'We love  orienteering! Help us share our  LOVE!',
+        link: "https://t.me/zzrklmn",
+        // description: 'We love  orienteering! Help us share our  LOVE!',
     }, {
         id: 4,
         icon: buyMeACoffee,
-        link:'https://www.buymeacoffee.com/gostar',
-        title: 'Donate to Orienteering.PRO development', // description: 'We love  orienteering! Help us share our  LOVE!',
-    },], logo: logo, menu: [{
+        link:'https://s.binance.com/Ug9JpUDL',
+        title: 'Donate Project', // description: 'We love  orienteering! Help us share our  LOVE!',
+    },], 
+    
+    logo: logo, menu: [{
         id: 1, text: 'Home', link: '#',path: '#home', offset: '84',
     }, {
         id: 2, text: 'Features', link: '#', path: '#features', offset: '84',
